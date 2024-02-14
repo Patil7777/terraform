@@ -11,7 +11,7 @@ resources   "aws_instance"  "my-terraform-instance" {
 }
 
 
-resource "aws_security_gropup"  "my_sg" {
+resource     "aws_security_gropup"  "my_sg" {
     name   =    "my-terrafrom-security"
     description =    "allow SSH and HTTP traffic"
 }
