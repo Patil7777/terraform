@@ -28,7 +28,7 @@ ingress {
     from_port   =   80
     to_port     =    80
     protocol=   "TCP"
-    cide_blocks =   ["0.0.0.0/0"]
+    cidr_blocks =   ["0.0.0.0/0"]
 }
 
 egress  {
